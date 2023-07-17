@@ -11,6 +11,11 @@ describe('@haensl/mimetypes', () => {
       .toEqual('text/html');
   });
 
+  it('contains ico', () => {
+    expect(mimetypes.ico)
+      .toEqual('image/x-icon');
+  });
+
   it('contains js', () => {
     expect(mimetypes.js)
       .toEqual('text/javascript');

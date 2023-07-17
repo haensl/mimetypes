@@ -83,6 +83,7 @@ The `mimetypes` object is a simple JSON object that maps to strings:
 {
   "css": "text/css",
   "html": "text/html",
+  "ico": "image/x-icon",
   "js": "text/javascript",
   "jpg": "image/jpeg",
   "json": "application/json",
